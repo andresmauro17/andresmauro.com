@@ -1,0 +1,38 @@
+# MkDocs core
+mkdocs>=1.5.0
+
+# Material theme (like Tiangolo's site)
+mkdocs-material>=9.0.0
+
+# Plugins for enhanced functionality
+mkdocs-material[imaging]  # For image processing
+mkdocs-git-revision-date-localized-plugin>=1.2.0  # Git revision dates
+mkdocs-git-committers-plugin-2>=1.2.0  # Git committers info
+mkdocs-minify-plugin>=0.7.0  # Minify HTML/CSS/JS
+mkdocs-redirects>=1.2.0  # Handle redirects
+mkdocs-glightbox>=0.3.0  # Image galleries and lightbox
+
+# Code highlighting and syntax
+pygments>=2.15.0
+pymdown-extensions>=10.0.0
+
+# Search functionality
+mkdocs-material-extensions>=1.1.0
+
+# Blog functionality (optional, like Tiangolo's blog)
+mkdocs-blog-plugin>=0.25.0
+
+# Social cards generation
+pillow>=9.0.0
+cairosvg>=2.5.0
+
+# RSS feed generation
+mkdocs-rss-plugin>=1.7.0
+
+# Additional useful plugins
+mkdocs-awesome-pages-plugin>=2.9.0  # Custom page ordering
+mkdocs-include-markdown-plugin>=6.0.0  # Include markdown files
+mkdocs-macros-plugin>=1.0.0  # Macros and variables
+mkdocs-exclude-search>=0.6.0  # Exclude pages from search
+
+# Development tools

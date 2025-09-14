@@ -1,0 +1,66 @@
+/* Custom CSS for Andres Cuervo's website */
+
+:root {
+  --md-primary-fg-color: #3f51b5;
+  --md-primary-fg-color--light: #757de8;
+  --md-primary-fg-color--dark: #002984;
+  --md-accent-fg-color: #526cfe;
+}
+
+/* Custom styling for the homepage */
+.homepage-hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Custom card styling for projects */
+.project-card {
+  border: 1px solid var(--md-default-border-color);
+  border-radius: 0.2rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  transition: box-shadow 0.2s;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog post styling */
+.blog-post-meta {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Social links styling */
+.social-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.social-links a {
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.social-links a:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+/* Code block improvements */
+.highlight {
+  margin: 1rem 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}

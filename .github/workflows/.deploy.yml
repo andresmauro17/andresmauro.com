@@ -1,0 +1,23 @@
+name: Deploy Docs
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch: # Allows manual triggering
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    - name: Build MkDocs site
+      run: |
+        pip install -r requirements.txt
+        mkdocs build --site-dir site
+    - name: Copy site files to EC2
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ${{ secrets.EC2_USER }}
+        key: ${{ secrets.EC2_SSH_KEY }}
+        source: "site/*"
+        target: "/var/www/andresmauro.com"

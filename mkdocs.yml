@@ -150,7 +150,7 @@ extra:
 # Page tree
 nav:
   - Home: index.md
-  # - Projects: projects.md
+  - Projects: projects.md
   #- Blog: blog/
   - Contact: contact.md
 

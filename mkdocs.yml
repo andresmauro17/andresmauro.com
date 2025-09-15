@@ -120,11 +120,11 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
-  - git-revision-date-localized:
-      enable_creation_date: true
-  - git-committers:
-      repository: andresmauro17/andresmauro.com
-      branch: master
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  # - git-committers:
+  #     repository: andresmauro17/andresmauro.com
+  #     branch: master
   - glightbox
   - awesome-pages
 

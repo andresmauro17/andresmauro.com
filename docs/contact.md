@@ -4,7 +4,8 @@ I'd love to hear from you! Whether you want to collaborate on a project, have a 
 
 ## Get in Touch
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [andresmauro17@gmail.com](mailto:andresmauro17@gmail.com)
+- **Calendar**: [Schedule a Meeting](https://calendar.app.google/YTzik59qqNuBSHyD6)
 - **GitHub**: [andresmauro17](https://github.com/andresmauro17)
 - **LinkedIn**: [andresmauro17](https://linkedin.com/in/andresmauro17)
 - **Twitter**: [@andresmauro17](https://twitter.com/andresmauro17)
